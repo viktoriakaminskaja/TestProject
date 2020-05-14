@@ -1,0 +1,10 @@
+body {
+    background: rgba(54, 131, 131, 0.459);
+}
+
+h1{
+    color: darkgoldenrod;
+}
+.header__title {
+    color: darkgreen;
+}
