@@ -3,7 +3,7 @@ body {
   padding: 0;
   margin: 0;
   font-family: Arial, Helvetica, sans-serif;
-  background-color: #87ceeb;
+  background-color: #759baa;
   min-width: 320px;
 }
 ul {
@@ -165,6 +165,47 @@ ul {
 
 @media (min-width: 1000px) {
   .about__list {
-    background: rgb(238, 47, 255);
+    background: rgb(186, 153, 189);
   }
+  .main__article {
+    background: url("./img/background.jpg");
+    background-size: cover;
+  }
+  .main__about {
+    background: #565f63;
+  }
+  .main__testimonials {
+    background: #c5a8b9;
+  }
+  .item__description {
+    font-size: 25px;
+  }
+  .item__article {
+    font-size: 21px;
+    color: #353232;
+  }
+  .testimonials__success {
+    font-size: 20px;
+  }
+  .app__download {
+    font-size: 20px;
+  }
+  .body {
+    background-color: #8e7b90;
+  }
+}
+/* For success.html */
+.main__content {
+  background: url("./img/background\ 2.jpg");
+}
+.content__discribe {
+  font-size: 20px;
+  text-align: center;
+}
+.success_page {
+  background-color: #19041375;
+}
+.content__item {
+  width: 15%;
+  height: 10%;
 }
