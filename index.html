@@ -13,8 +13,26 @@
           <img class="nav__logo" src="./img/heart.svg" alt="Logo" />
           <a class="nav__link" href="index.html">BlackCupid</a>
         </div>
-
-        <button class="nav__btn btn">Log in</button>
+        <section class="nav__modal">
+          <form class="form">
+            <div class="form__close">
+              <button class="btn close__btn">x</button>
+            </div>
+            <div class="form-group">
+              <label for="email">Email address</label>
+              <input type="email" class="form-control" id="email" />
+            </div>
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" />
+            </div>
+            <div class="form-group-btn">
+              <button class="btn">Log in</button>
+              <button class="btn">Registration</button>
+            </div>
+          </form>
+        </section>
+        <button class="nav__btn btn">Log in / Registration</button>
       </nav>
     </header>
     <main>
@@ -87,34 +105,32 @@
         </a>
       </section>
       <section class="main__works">
-        <h3>How It Works</h3>
-        <p class="item__description">
+        <h3 class="works__article">How It Works</h3>
+        <p class="works__description">
           Get started on BlackCupid.com today in 3 simple steps:
         </p>
         <ul class="works__list">
-          <ol>
-            <li class="list__item">
-              <h5 class="item__article">Create A Profile</h5>
-              <p class="item__description">
-                Create your profile in seconds with our easy sign-up. Don't
-                forget to add a photo!
-              </p>
-            </li>
-            <li class="list__item">
-              <h5 class="item__article">Browse Photos</h5>
-              <p class="item__description">
-                Search our large member base with ease, with a range of
-                preferences and settings.
-              </p>
-            </li>
-            <li class="list__item">
-              <h5 class="item__article">Start Communicating</h5>
-              <p class="item__description">
-                Send a message or interest to start communicating with members.
-                It's your time to shine.
-              </p>
-            </li>
-          </ol>
+          <li class="list__item">
+            <h5 class="item__article">Create A Profile</h5>
+            <p class="item__description">
+              Create your profile in seconds with our easy sign-up. Don't forget
+              to add a photo!
+            </p>
+          </li>
+          <li class="list__item">
+            <h5 class="item__article">Browse Photos</h5>
+            <p class="item__description">
+              Search our large member base with ease, with a range of
+              preferences and settings.
+            </p>
+          </li>
+          <li class="list__item">
+            <h5 class="item__article">Start Communicating</h5>
+            <p class="item__description">
+              Send a message or interest to start communicating with members.
+              It's your time to shine.
+            </p>
+          </li>
         </ul>
         <a href="success.html">
           <button class="works__btn btn">Find Your Match</button>
@@ -133,12 +149,22 @@
     <footer>
       <ul class="footer__list">
         <li>
-          <h5>Visit Our Other Sites</h5>
-          <ul class="footer__links">
-            <li class="footer__links-item">site 1</li>
-            <li class="footer__links-item">site 2</li>
-            <li class="footer__links-item">site 3</li>
-            <li class="footer__links-item">site 4</li>
+          <h5>Our Site</h5>
+          <ul>
+            <ol class="footer__links">
+              <li class="footer__links-item">
+                <a class="links__nav links__nav-active">Main Page</a>
+              </li>
+              <li class="footer__links-item">
+                <a href="success.html" class="links__nav-to">Review Page</a>
+              </li>
+              <li class="footer__links-item">
+                <a class="links__nav">Private office</a>
+              </li>
+              <li class="footer__links-item">
+                <a class="links__nav">Log in / Registration</a>
+              </li>
+            </ol>
           </ul>
         </li>
         <li>
@@ -161,5 +187,6 @@
         </li>
       </ul>
     </footer>
+    <script src="./script.js"></script>
   </body>
 </html>
